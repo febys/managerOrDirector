@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+  padding: 15px;
+}
+table thead td {
+  width: 100%;
+
+  background-color: #073772;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  border: 2px solid #000000;
+}
+table tbody td {
+  align-content: center;
+  color: #000000;
+  border: 1px solid #000000;
+}
+table tbody tr {
+  background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+button {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+button:hover {
+  background-color: white;
+}
+button:click {
+  background-color: red;
+}
