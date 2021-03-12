@@ -13,18 +13,18 @@
 		</tr>
 		<tr>
 			<td>Team 1</td>
-			<td><button></button></td>
-			<td><button></button></td>
+			<td><button (click)="onClickM($event)" [ngClass]="{'red': approved , 'green' : notapproved,'grey' : noaction}"></button></td>
+			<td><button (click)="onClickD($event)" [ngClass]="{'red': approved , 'green' : notapproved,'grey' : noaction}"></button></td>
 		</tr>
 		<tr>
 			<td>Team 2</td>
-			<td><button> </button></td>
-			<td><button> </button></td>
+			<td><button (click)="onClickM($event)" [ngClass]="{'red': approved , 'green' : notapproved,'grey' : noaction}"> </button></td>
+			<td><button (click)="onClickD($event)" [ngClass]="{'red': approved , 'green' : notapproved,'grey' : noaction}"> </button></td>
 		</tr>
     <tr>
 			<td>Team 3</td>
-			<td><button> </button></td>
-			<td><button> </button></td>
+			<td><button (click)="onClickM($event)"[ngClass]="{'red': approved , 'green' : notapproved,'grey' : noaction}"> </button></td>
+			<td><button (click)="onClickD($event)"[ngClass]="{'red': approved , 'green' : notapproved,'grey' : noaction}"> </button></td>
 		</tr>
 	</tbody>
 </table>
