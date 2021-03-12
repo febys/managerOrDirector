@@ -33,10 +33,17 @@ button {
   border-radius: 50%;
   width: 20px;
   height: 20px;
+  background-color: grey;
 }
 button:hover {
-  background-color: white;
 }
-button:click {
+
+.red {
   background-color: red;
+}
+.green{
+  background-color: green;
+}
+.grey{
+  background-color: grey;
 }
